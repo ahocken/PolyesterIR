@@ -174,7 +174,7 @@ for i in range(len(subset_indices)):
                 sub_arr[z] = 0
     
     # Specify probability thresholds to run
-    prob_threshold = np.concatenate((np.arange(0,0.96,.05),np.arange(0.96,1.01,0.01)))
+    prob_threshold = np.concatenate((np.arange(0,0.96,.05),[0.99]))
 
     # Make a binary list of the true labels
     binary_true_labels = np.zeros_like(pred_probabilities)
@@ -202,7 +202,7 @@ for i in range(len(subset_indices)):
 ## Sample Characteristic Analysis
 
 # Import excel file containing sample characteristics with different sheets for each class
-sample_descrip_file_path = os.path.join(folder_path, 'PolyesterSampleList_May22024.xlsx')
+sample_descrip_file_path = os.path.join(folder_path, 'PolyesterSampleList.xlsx')
 df_all = pd.read_excel(sample_descrip_file_path, sheet_name = class_names_wo_other)
 sample_descrip = pd.concat(df_all, ignore_index=True)
 
