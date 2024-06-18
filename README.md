@@ -7,7 +7,7 @@ Alexis Hocken, Sharona Huang, Eleanor Ng, Bradley D. Olsen
 
 The following outlines the content within this record. Script files should be run in the order in which they are presented:
 
-All spectral data is provided in the MIR Data and NIR Data folders. Please refer to supplementary spreadsheet provided with paper to see sample attributes such as thickness, color, and opacity.
+All spectral data is provided in the MIR Data and NIR Data folders. Please refer to supplementary spreadsheet provided with manuscript to see sample attributes such as thickness, color, and opacity.
 
 Script for generating synthetic spectral data for scarce material classes
 
