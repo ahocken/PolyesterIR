@@ -2,8 +2,7 @@ READ ME FIRST
 
 These codes and files were used in the following manuscript:
 
-Improving the optical sorting of polyester bioplastics via reflectance spectroscopy and machine learning classification techniques
-Alexis Hocken, Sharona Huang, Eleanor Ng, Bradley D. Olsen
+Alexis Hocken, Sharona Huang, Eleanor Ng, Bradley D. Olsen. "Improving the optical sorting of polyester bioplastics via reflectance spectroscopy and machine learning classification techniques"
 
 The following outlines the content within this record. Script files should be run in the order in which they are presented:
 
